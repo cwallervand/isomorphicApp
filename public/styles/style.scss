@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	#matchSelectorContainer {
+		width: 100%;
+		overflow-x: auto;
+		ul.matches {
+			width: 100000px;
+			li {
+				width: 200px;
+				padding: 10px;
+				float: left;	
+
+				.logoContainer {
+					width: 3em;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
